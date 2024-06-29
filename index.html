@@ -7,20 +7,40 @@
 
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/queries.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
         rel="stylesheet">
     <link rel="icon" href="img/pyramid-icon.png">
+    <script defer src="js/main.js"></script>
     <script defer src="js/script.js"></script>
     <title>TravelToEgypt</title>
 </head>
 
 <body>
     <header class="main-header">
+        <nav class="menu-navigator">
+            <ul class=" menu-items list">
+                <li class="menu-item"><a class="menu-item-link" href="#section-feature">Features</a></li>
+                <li class="menu-item"><a class="menu-item-link" href="#gallery">Gallery</a></li>
+                <li class="menu-item"><a class="menu-item-link" href="#featured-tours">Tours</a></li>
+                <li class="menu-item"><a class="menu-item-link" href="#calendar">Calendar</a></li>
+                <li class="menu-item"><a class="menu-item-link" href="#section-inspired">stories</a></li>
+                <li class="menu-item"><a class="menu-item-link" href="#section-views">Partners & reviews</a></li>
+                <li class="menu-item"><a class="menu-item-link" href="#contact">Contact us</a></li>
+            </ul>
+        </nav>
         <div class="menu-box">
             <button class="side-menu">
-                <svg class="menu-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                <svg class="menu-icon close-menu" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+                    <rect width="256" height="256" fill="none" />
+                    <line x1="200" y1="56" x2="56" y2="200" stroke="currentColor" stroke-linecap="round"
+                        stroke-linejoin="round" stroke-width="16" />
+                    <line x1="200" y1="200" x2="56" y2="56" stroke="currentColor" stroke-linecap="round"
+                        stroke-linejoin="round" stroke-width="16" />
+                </svg>
+                <svg class="menu-icon open-menu" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                     stroke-width="1.5" stroke="currentColor" class="size-6">
                     <path stroke-linecap="round" stroke-linejoin="round"
                         d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
@@ -35,7 +55,7 @@
         </div>
         <div class="user-box">
             <div class="user-account">
-                <a href="#" class="account">
+                <a href="myaccount.html" class="account">
                     <div class="account-icon">
                         <svg class="account-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                             stroke-width="1.5" stroke="currentColor" class="size-6">
@@ -46,7 +66,7 @@
                     </div>
                     <div class="acccount-text">My account</div>
                 </a>
-                <a class="btn--small btn" href="#"> Contact us </a>
+                <a class="btn--small btn" href="#contact"> Contact us </a>
             </div>
         </div>
     </header>
@@ -62,7 +82,12 @@
         </div>
     </section>
 
-    <section class="section-feature">
+
+
+
+
+
+    <section class="section-feature" id="section-feature">
         <div class="container">
             <div class="features">
 
@@ -162,7 +187,11 @@
             </div>
         </div>
     </section>
-    <section class="gallery">
+
+
+
+
+    <section class="gallery" id="gallery">
         <div class="container">
             <header class="gallery-header">
                 <span class="post-heading">Experience Egypt:</span>
@@ -299,7 +328,15 @@
         </div>
 
     </section>
-    <section class="featured-tours">
+
+
+
+
+
+
+
+
+    <section class="featured-tours" id="featured-tours">
         <header class="featured-tours-header">
             <div class="main-part">
                 <span class="post-heading">Explore our adventures</span>
@@ -310,14 +347,11 @@
         </header>
         <div class="tours">
 
-            <!-- <div class="glow-container">
-                <div class="neon">Weekend </div>
-                <div class="flux">Big sale </div>
-            </div> -->
+
 
             <div class="tours-box card-1">
                 <span class="tag" contenteditable spellcheck="false">best seller</span>
-                <a href="#" class="tour">
+                <a href="tour.html" class="tour">
                     <div class="tour-media">
                         <p class="media-text">All-Inclusive Adventure</p>
                         <p class="media-city">Cairo, Aswan, sharm &amp; more</p>
@@ -441,7 +475,15 @@
             <img class="wing" src="img/right-wing.png" alt="">
         </div>
     </section>
-    <section class="calendar">
+
+
+
+
+
+
+
+
+    <section class="calendar" id="calendar">
         <header class="calendar-header">
             <h2 class="heading-secondary heading--darker">Tour calendar</h2>
         </header>
@@ -452,7 +494,15 @@
             <a href="#" class="btn--large btn">View Tour Dates !</a>
         </div>
     </section>
-    <section class="section-inspired">
+
+
+
+
+
+
+
+
+    <section class="section-inspired" id="section-inspired">
         <header class="stories-header">
             <h2 class="heading-secondary heading--darker">
                 Traveler Tales
@@ -540,7 +590,14 @@
         <div class="base-line" role="img" aria-label="ancient signs as seperation between section">
         </div>
     </section>
-    <section class="section-views">
+
+
+
+
+
+
+
+    <section class="section-views" id="section-views">
         <article class="featured-in">
             <h5 class="heading-fifth heading--darker text-center">
                 Our Premier Partners: Top Airlines, Hotels, and Companies You Can Trust
@@ -758,7 +815,11 @@
         </div>
     </section>
 
-    <footer class="main-footer">
+
+
+
+
+    <footer class="main-footer" id="contact">
         <div class="footer-header">
             <div class="footer-header-inner">
                 <h2 class="heading-secondary">Unlock Your Ultimate Egypt Adventure</h2>

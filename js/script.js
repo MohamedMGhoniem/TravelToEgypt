@@ -1,3 +1,7 @@
+
+
+
+
 const btnSecondEl = document.querySelector('.second-gallery-btn');
 const SectionEl = document.querySelector('.gallery');
 
@@ -25,7 +29,7 @@ btnThirdEl.addEventListener('click', function () {
 
 
 const sectionHeroEl = document.querySelector(".section-hero")
-
+const mainHeaderEl = document.querySelector(".main-header")
 const obs = new IntersectionObserver(
     function (entries) {
         const ent = entries[0];
@@ -33,10 +37,12 @@ const obs = new IntersectionObserver(
 
         if (ent.isIntersecting === false) {
             document.body.classList.add('sticky')
+            mainHeaderEl.style.backgroundColor = '#2f291b'
         }
 
         if (ent.isIntersecting === true) {
             document.body.classList.remove('sticky')
+            mainHeaderEl.style.backgroundColor = 'transparent'
         }
     },
     {
@@ -189,4 +195,8 @@ testCtrl.addEventListener('click', function () {
         }
     })
 });
+
+
+
+
 

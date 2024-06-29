@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/account-and-tours.css">
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/queries.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <link rel="icon" href="img/pyramid-icon.png">
+    <script defer src="js/main.js"></script>
+    <script defer src="js/account.js"></script>
+    <title>My account</title>
+</head>
+
+<body>
+    <header class="main-header">
+        <nav class="menu-navigator">
+            <ul class=" menu-items list">
+                <li class="menu-item"><a class="menu-item-link" href="index.html">Home</a></li>
+                <li class="menu-item"><a class="menu-item-link" href="#contact">Newsletter</a></li>
+            </ul>
+        </nav>
+        <div class="menu-box">
+            <button class="side-menu">
+                <svg class="menu-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                    stroke-width="1.5" stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg>
+                <p class="menu-text">Menu</p>
+            </button>
+        </div>
+        <div class="logo-box">
+            <a href="index.html">
+                <img src="img/Egypt_Pyramids_PNG_Clip_Art-3128.png" alt="">
+            </a>
+        </div>
+        <div class="user-box">
+            <div class="user-account">
+                <a href="#" class="account">
+                    <div class="account-icon">
+                        <svg class="account-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                            stroke-width="1.5" stroke="currentColor" class="size-6">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
+                        </svg>
+
+                    </div>
+                    <div class="acccount-text">My account</div>
+                </a>
+                <a class="btn--small btn" href="#"> Contact us </a>
+            </div>
+        </div>
+    </header>
+    <section class="myaccount-section-hero">
+        <nav class="sub-nav">
+            <ul class="tabs-navigator list">
+                <li class="tab"><a href="index.html">Home</a></li>
+                <li class="tab"><a href="#">My account</a></li>
+            </ul>
+        </nav>
+        <div class="container">
+            <header class="myaccount-header text-center margin-bottm-large">
+                <h1 class="heading-primary">
+                    My Account
+                </h1>
+                <h2 class="heading-secondary">
+                    log-in / create account
+                </h2>
+                <h5 class="heading-fifth">
+                    Do you have an account ?
+                </h5>
+
+                <div class="account-control-btns">
+                    <button class="account-control-btn-L btn btn--large btn-square">Yes. I have an account</button>
+                    <button class="account-control-btn-R btn btn--large btn-square">No. I don't have an account</button>
+                </div>
+            </header>
+            <div class="log-in-forms-container smooth-hide">
+                <form action="" class="log-in-form margin-bottm-medium ">
+                    <div class="fields">
+                        <div class="user-mail">
+                            <label class="form-label" for="email-address">Email address</label>
+                            <input class="form-input" type="email" placeholder="me@gmail.com" name="mail"
+                                id="email-address" required>
+                        </div>
+                        <div class="user-password">
+                            <label class="form-label" for="password">Password</label>
+                            <input class="form-input" type="password" placeholder="Abc123#$-!" name="password"
+                                id="password" required>
+                        </div>
+                    </div>
+                    <div class="login-btn btn btn--large margin-bottm-small">
+                        <a href="#">Log in</a>
+                    </div>
+                </form>
+                <button class="forgot-pass-btn text-light margin-bottm-small">I've forgotten my password</button>
+                <form action="" class="forgot-pass-form smooth-hide">
+                    <label for="reset-mail" class="form-label">Please enter your email address</label>
+                    <input type="email" name="reset-mail" id="reset-mail" required class="form-input margin-bottm-small"
+                        placeholder="Email for reset link">
+                    <input type="submit" value="Reset password" class="btn btn--large max-width">
+                </form>
+            </div>
+            <div class="sign-up-forms-container smooth-hide">
+                <form action="" class="sign-up-form margin-bottm-medium ">
+                    <h5 class="heading-fifth text-center">
+                        New to TravelToEgypt Adventures?
+                    </h5>
+                    <p class="post-heading text-center margin-bottm-medium">Fill in your details below and click
+                        Register to create an
+                        account:</p>
+                    <h2 class="heading-secondary">
+                        Details :
+                    </h2>
+                    <div class="details margin-bottm-large">
+                        <div class="title">
+                            <label for="title" class="form-label">Title :</label>
+                            <select name="title" id="title" required class="form-input text-center paragraph">
+                                <option value="">-select a title-</option>
+                                <option value="Mr">Mr</option>
+                                <option value="Mrs">Mrs</option>
+                                <option value="Miss">Miss</option>
+                                <option value="Ms">Ms</option>
+                                <option value="Dr">Dr</option>
+                                <option value="Prof">Prof</option>
+                                <option value="Rev">Rev</option>
+                            </select>
+                        </div>
+                        <div class="user-first-name">
+                            <label for="first-name" class="form-label">First name :</label>
+                            <input type="text" name="first-name" id="first-name" class="form-input" required
+                                placeholder="Arthur">
+                        </div>
+                        <div class="user-last-name">
+                            <label for="last-name" class="form-label">First name :</label>
+                            <input type="text" id="last-name" class="form-input" name="last-name" required
+                                placeholder="Morgan">
+                        </div>
+                        <div class="country-of-residence">
+                            <label for="country" class="form-label">Country :</label>
+                            <select name="country" id="country" required class="form-input text-center paragraph">
+                                <option value="">-select country of residence-</option>
+                                <option value="Egypt">Egypt</option>
+                                <option value="USA">USA</option>
+                                <option value="China">China</option>
+                                <option value="Canda">Canda</option>
+                                <option value="France">France</option>
+                                <option value="UAE">UAE</option>
+                                <option value="Brazil">Brazil</option>
+                            </select>
+                        </div>
+                        <div class="phone-number">
+                            <label for="phone" class="form-label">Mobile :</label>
+                            <input type="tel" id="phone" name="phone" placeholder="0323-434278-234" class="form-input"
+                                maxlength="11" required>
+                        </div>
+                        <div class="date-of-birth">
+                            <label for="date" class="form-label">DOF (DD-MM-YYYY) :</label>
+                            <input type="date" id="date" name="date" placeholder="26/06/2024" class="form-input"
+                                required>
+                        </div>
+                    </div>
+                    <h2 class="heading-secondary">
+                        Email and Password
+                    </h2>
+                    <div class="email-password margin-bottm-medium">
+                        <div class="user-mail">
+                            <label for="mail" class="form-label">Email address :</label>
+                            <input type="email" name="mail" id="mail" placeholder="me@mail.com" required
+                                class="form-input">
+                        </div>
+                        <div class="user-confirm-mail">
+                            <label for="confirm-mail" class="form-label">Confirm Email address :</label>
+                            <input type="email" placeholder="me@mail.com" name="confirm-mail" id="confirm-mail" required
+                                class="form-input">
+                        </div>
+
+                        <div class="user-password">
+                            <label for="signup-password" class="form-label">Password (minimum 8 characters) :</label>
+                            <input type="password" placeholder="Abc123#!" name="password" id="signup-password" required
+                                class="form-input" minlength="8">
+                        </div>
+                        <div class="user-confirm-password">
+                            <label for="confirm-password" class="form-label">Confirm password :</label>
+                            <input type="password" placeholder="Abc123#!" name="user-confirm-password"
+                                id="confirm-password" required class="form-input" maxlength="8">
+                        </div>
+                        <div class="our-terms">
+                            <span class="paragraph text-light">
+                                By registering you are confirming you agree to our
+                            </span>
+                            <a href="#">Terms and Conditions</a>
+                        </div>
+                        <div class="register">
+                            <input type="submit" class="btn btn--large" value="Sign up">
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+        <div class="bg-image" role="img" aria-label="ancient sympols on a wall"></div>
+    </section>
+
+
+
+
+
+
+    <footer class="main-footer">
+        <div class="footer-header">
+            <div class="footer-header-inner">
+                <h2 class="heading-secondary">Unlock Your Ultimate Egypt Adventure</h2>
+                <a href="#" class="btn btn--large"> contact us</a>
+            </div>
+        </div>
+        <div class="footer-content">
+            <form action="" class="newsletter-form">
+                <h3 class="heading-ternary">Newsletter Sign Up</h3>
+                <input type="text" placeholder="Your name" required>
+                <input type="email" placeholder="Your email address" required>
+                <a href="#">
+                    <span class="arrow">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+                            <rect width="256" height="256" fill="none" />
+                            <path
+                                d="M132.94,231.39A8,8,0,0,1,128,224V184H104a8,8,0,0,1-8-8V80a8,8,0,0,1,8-8h24V32a8,8,0,0,1,13.66-5.66l96,96a8,8,0,0,1,0,11.32l-96,96A8,8,0,0,1,132.94,231.39ZM48,176V80a8,8,0,0,0-16,0v96a8,8,0,0,0,16,0Zm32,0V80a8,8,0,0,0-16,0v96a8,8,0,0,0,16,0Z" />
+                        </svg>
+                </a>
+            </form>
+            <div class="site-info">
+                <p class="copyright">
+                    &copy; 2024 TravelToEgypt. All rights reserved. This website and its content are protected by
+                    international copyright laws. Unauthorized reproduction, distribution, or usage of any material,
+                    including but not limited to text, images, and logos, is strictly prohibited without prior written
+                    permission. TravelToEgypt is a trademark of TravelToEgypt, Inc. All other trademarks are the
+                    property of their respective owners
+                </p>
+                <div class="contact-info">
+                    <p>For inquiries or permissions, please contact us at :</p>
+                    <ul class="list contacts">
+                        <li class="contact">
+                            <a href="tel:415-201-63">T: 415-201-63</a>
+                        </li>
+                        <li class="contact">
+                            <a href="mailto:TravelwithMMg@mail.com">E: TravelToEgypt@mail.com</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="logo-box">
+                    <a href="#">
+                        <img src="img/Egypt_Pyramids_PNG_Clip_Art-3128.png" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="social-icons">
+                <ul class="social-links list">
+                    <li class="social-link">
+                        <a href="#">
+                            <svg class="social-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+                                <rect width="256" height="256" fill="none" />
+                                <circle cx="128" cy="128" r="96" fill="none" stroke="currentColor"
+                                    stroke-linecap="round" stroke-linejoin="round" stroke-width="24" />
+                                <path d="M168,88H152a24,24,0,0,0-24,24V224" fill="none" stroke="currentColor"
+                                    stroke-linecap="round" stroke-linejoin="round" stroke-width="24" />
+                                <line x1="96" y1="144" x2="160" y2="144" fill="none" stroke="currentColor"
+                                    stroke-linecap="round" stroke-linejoin="round" stroke-width="24" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-link">
+                        <a href="#">
+                            <svg class="social-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+                                <rect width="256" height="256" fill="none" />
+                                <circle cx="128" cy="128" r="36" fill="none" stroke="currentColor"
+                                    stroke-linecap="round" stroke-linejoin="round" stroke-width="24" />
+                                <rect x="32" y="32" width="192" height="192" rx="48" fill="none" stroke="currentColor"
+                                    stroke-linecap="round" stroke-linejoin="round" stroke-width="24" />
+                                <circle cx="180" cy="76" r="16" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-link">
+                        <a href="#">
+                            <svg class="social-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+                                <rect width="256" height="256" fill="none" />
+                                <polygon points="48 40 96 40 208 216 160 216 48 40" fill="none" stroke="currentColor"
+                                    stroke-linecap="round" stroke-linejoin="round" stroke-width="24" />
+                                <line x1="113.88" y1="143.53" x2="48" y2="216" fill="none" stroke="currentColor"
+                                    stroke-linecap="round" stroke-linejoin="round" stroke-width="24" />
+                                <line x1="208" y1="40" x2="142.12" y2="112.47" fill="none" stroke="currentColor"
+                                    stroke-linecap="round" stroke-linejoin="round" stroke-width="24" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-link">
+                        <a href="#">
+                            <svg class="social-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+                                <rect width="256" height="256" fill="none" />
+                                <polygon points="164 128 108 92 108 164 164 128" fill="none" stroke="currentColor"
+                                    stroke-linecap="round" stroke-linejoin="round" stroke-width="24" />
+                                <path
+                                    d="M24,128c0,29.91,3.07,47.45,5.41,56.47A16,16,0,0,0,39,195.42C72.52,208.35,128,208,128,208s55.48.35,89-12.58a16,16,0,0,0,9.63-10.95c2.34-9,5.41-26.56,5.41-56.47s-3.07-47.45-5.41-56.47a16,16,0,0,0-9.63-11C183.48,47.65,128,48,128,48s-55.48-.35-89,12.58a16,16,0,0,0-9.63,11C27.07,80.54,24,98.09,24,128Z"
+                                    fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="24" />
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="policy">
+                <a href="#">service policy</a>
+                <span>/</span>
+                <a href="#">conditions</a>
+            </div>
+            <div class="developer-logo">
+                <p>
+                    this site is made by :
+                    Mohamed M Ghoniem
+                    MMG
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

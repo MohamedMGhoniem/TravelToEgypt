@@ -1,0 +1,529 @@
+.myaccount-section-hero {
+    background-color: #2f291b;
+}
+
+
+.myaccount-header h1 {
+    margin-bottom: 3.2rem;
+}
+
+.myaccount-header h2 {
+    margin-bottom: 1.8rem;
+}
+
+.account-control-btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.8rem;
+    margin-top: 1.6rem;
+}
+
+.account-control-btn-L,
+.account-control-btn-R {
+    width: 100%;
+}
+
+.fields {
+    display: flex;
+    gap: 1.8rem;
+    margin-bottom: 2.4rem;
+}
+
+.user-mail,
+.user-password {
+    width: 100%;
+}
+
+.login-btn {
+    width: 100%;
+    text-align: center;
+    color: #2f291b;
+}
+
+.login-btn a:link,
+.login-btn a:visited {
+    color: #2f291b;
+    width: 100%;
+    display: block;
+}
+
+.login-btn a:active,
+.login-btn a:hover {
+    color: #5e5136;
+}
+
+.forgot-pass-btn {
+    background-color: transparent;
+    border: 1px solid transparent;
+    font-size: 1.8rem;
+    padding-bottom: 0.8rem;
+    background-image: linear-gradient(#f2e0b8, #f2e0b8);
+    background-repeat: no-repeat;
+    background-size: 100% 1px;
+    background-position: 0% 100%;
+    transition: background-size 1s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.forgot-pass-btn:hover {
+    background-position: 100% 100%;
+    background-size: 0% 1px;
+}
+
+.log-in-forms-container,
+.sign-up-forms-container,
+.forgot-pass-form {
+    transition: all 2s;
+}
+
+.sign-up-form h2 {
+    border-bottom: 2px solid;
+    border-color: inherit;
+    margin-bottom: 2.4rem;
+}
+
+.details {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    gap: 2.4rem;
+}
+
+.email-password {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 2.4rem;
+}
+
+.register input {
+    width: 100%;
+}
+
+.our-terms a:link,
+.our-terms a:visited {
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: 600;
+    background-image: linear-gradient(rgba(242, 240, 232, 0.5), rgba(242, 240, 232, 0.5));
+    background-size: 100% 1px;
+    background-repeat: no-repeat;
+    background-position: 0% 100%;
+    transition: background-size .3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.our-terms a:hover,
+.our-terms a:active {
+    background-position: 100% 100%;
+    background-size: 0% 1px;
+}
+
+.bg-image {
+    background-image: linear-gradient(#463d297b, #463d297b), url(../img/ancient-wall.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 20rem;
+}
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* TOURS FILE  */
+
+.big-sale-sign {
+    background-color: #2f291b;
+    height: 40vh;
+}
+
+.tour-1-header {
+    height: 100vh;
+    background-image: linear-gradient(#ffffff1c, #1f2628), url(../img/cario.png);
+    background-size: cover;
+    background-position: right;
+    display: flex;
+    text-align: center;
+    justify-content: end;
+    flex-direction: column;
+    padding: 6.4rem;
+}
+
+/* ////////////////////////////////////////////// */
+
+.tour-plan {
+    background-color: #d3b77a;
+    padding: 12.8rem 3.2rem;
+}
+
+.preview {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.preview-item {
+    border-bottom: 1px solid #ddd;
+}
+
+.preview-text {
+    width: 60%;
+}
+
+.tour-days-calendar {
+    background-color: #d3b77a;
+    padding: 12.8rem 3.2rem;
+}
+
+
+/* ////////////////////////////////////////////// */
+.tour-gallery {
+    background-image: linear-gradient(#5e5136 50vh, #d3b77a 50vh);
+    padding-bottom: 12.8rem;
+}
+
+.tour-gallery-container {
+    display: flex;
+    align-items: center;
+    height: 50vh;
+}
+
+.tour-photo img {
+    width: 100%;
+}
+
+
+
+.tour-activities {
+    display: flex;
+    padding: 0 2.4rem;
+}
+
+.tour-activity {
+    flex-shrink: 0;
+    width: 40%;
+    transition: all 2s;
+    box-shadow: 0px 3px 8px 0px #756644;
+    border-bottom-right-radius: 11px;
+    border-bottom-left-radius: 11px;
+    padding: 3.2rem;
+}
+
+.day-num {
+    display: block;
+    color: #ddd;
+    font-size: 4rem;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.day-activities {
+    font-size: 1.8rem;
+    line-height: 1.8;
+}
+
+.day-activity:not(:last-child) {
+    margin-bottom: 1.8rem;
+}
+
+
+
+.days-swiper {
+    width: 80%;
+    height: 3px;
+    border: 1px solid #756644;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.days-swiper-inner {
+    height: 100%;
+    background-color: #17140e;
+    transition: all 1s;
+}
+
+.activities-swiper-left,
+.activities-swiper-right {
+    border: none;
+    border-radius: 11px;
+    background: none;
+    background-image: linear-gradient(#2f291b, #2f291b);
+    background-size: 0% 100%;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    transition: background-size 1s cubic-bezier(0.645, 0.045, 0.355, 1);
+    box-shadow: 0px 2px 2px #2f291b;
+    padding: 0 1.2rem;
+}
+
+.activities-swiper-left:hover,
+.activities-swiper-right:hover {
+    background-position: 0% 0%;
+    background-size: 100% 100%;
+}
+
+.activities-swiper-left:active,
+.activities-swiper-right:active {
+    transform: scale(0.9);
+    box-shadow: 0px 1px 0px #2f291b;
+}
+
+.activities-swiper-left svg,
+.activities-swiper-right svg {
+    border-radius: 11px;
+    border: none;
+}
+
+/* //////////////////////////////////////// */
+
+.tour-calendar {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2.4rem;
+    justify-content: space-between;
+}
+
+.dates-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+}
+
+.date {
+    display: flex;
+    gap: 1.2rem;
+    justify-content: space-between;
+}
+
+.date:not(:last-child) {
+    border-bottom: 1px solid #5e5136;
+    padding-bottom: 3.2rem;
+}
+
+.date:nth-child(3) .days {
+    color: #888;
+    text-decoration: line-through;
+}
+
+.days {
+    padding: 0 2.4rem;
+    text-align: center;
+}
+
+.booking {
+    display: flex;
+    gap: 2.4rem;
+}
+
+.booking a:link,
+.booking a:visited {
+    color: #eee;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-bottom: 1px solid #eee;
+    transition: all 0.3s;
+}
+
+.booking a:hover,
+.booking a:active {
+    border-bottom: 3px solid #eee;
+}
+
+
+.show-airlines,
+.show-hotels,
+.show-pricing,
+.show-dates {
+    background: none;
+    border: none;
+    font-size: 4.2rem;
+    font-weight: 400;
+    margin-left: auto;
+    padding: 0 2.4rem 0 0;
+}
+
+
+.pricing-header,
+.hotels-heading,
+.dates-heading,
+.airlines-heading {
+    display: flex;
+    gap: 1.2rem;
+    align-items: center;
+    border-bottom: 1px solid #2f291b;
+}
+
+.dates-content,
+.hotels-content,
+.pricing-content,
+.airlines-content {
+    max-height: 90.86rem;
+    transition: all 1s;
+}
+
+.airlines-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+}
+
+.airline:not(:last-child) {
+    border-bottom: 1px solid #5e5136;
+    padding-bottom: 3.2rem;
+}
+
+.airlines-illustration img,
+.pricing-illustration img {
+    width: 100%;
+}
+
+.price-package {
+    box-shadow: 0px 1px 1px #756644;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.price-package a {
+    padding-bottom: 1.2rem;
+}
+
+.price-package a .price {
+    display: block;
+    color: #333;
+}
+
+.pricing-illustration img {
+    display: block;
+    width: 40%;
+    margin: 0 auto;
+}
+
+.dollar-sign {
+    color: green;
+    font-size: 2.4rem;
+    font-weight: 800;
+    margin-right: 0.6rem;
+}
+
+.price-package {
+    /* background: #2c2c2c; */
+    border-radius: 15px;
+    margin: 20px;
+    transition: all ease 0.2s;
+    border: 1px solid #333;
+}
+
+.price-package {
+    box-shadow: 0px 5px 10px 0px rgba(255, 128, 0, 0.7);
+}
+
+.price-package:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 20px 2px rgba(255, 238, 0, 0.7);
+}
+
+.booking-btn-tranform {
+    transform: translateY(100%);
+}
+
+.booking-btn {
+    display: inline-block;
+    /* position: relative; */
+    height: 12.8rem;
+    width: 100%;
+    order: 888888;
+}
+
+.booking-btn-inner {
+    position: fixed;
+    background-color: #2f291b;
+    border-radius: 30px;
+    padding: 0.6rem 0.9rem;
+    display: flex;
+    gap: 1.2rem;
+    bottom: 0;
+    left: 0;
+}
+
+.booking-btn-inner a:link,
+.booking-btn-inner a:visited {
+    font-size: 1.6rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    border-radius: 30px;
+    padding: 0.8rem 1.6rem;
+    border: 1px solid #fff;
+    transition: all 0.6s;
+}
+
+.booking-btn-inner a:nth-child(2):link,
+.booking-btn-inner a:nth-child(2):visited {
+    background-color: #2f291b;
+    color: #fff;
+}
+
+.booking-btn-inner a:nth-child(2):hover {
+    background-color: #fff;
+    color: #2f291b;
+}
+
+.booking-btn-inner a:first-child:link,
+.booking-btn-inner a:first-child:visited {
+    background-color: #fff;
+    color: #2f291b;
+}
+
+.booking-btn-inner a:first-child:hover {
+    background-color: #ddd;
+}
+
+.package-insider {
+    background-color: #17140ea6;
+    backdrop-filter: blur(7px);
+    width: 100%;
+    height: 100%;
+    padding: 6rem 0 0 0;
+    position: fixed;
+    bottom: 0px;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 1s;
+}
+
+
+
+.package-insider-inner {
+    background-color: #fff;
+    display: flex;
+    gap: 1.2rem;
+    padding: 1.2rem 2.4rem;
+    width: 40%;
+    order: 9999999;
+}
+
+.package-insider-inner li {
+    margin-bottom: 1.2rem;
+}
+
+.package-insider-inner h3 {
+    font-size: 1.8rem;
+    color: #756644;
+}
+
+.package-insider-inner span {
+    font-size: 1.6rem;
+}
+
+.close-pack {
+    width: 3.2rem;
+    height: 3.2rem;
+    background: none;
+    border: none;
+}
+
+.close-pack svg {
+    color: #fff;
+}
+
+
+/* ////////////////////////////////////////////////////////////// */
